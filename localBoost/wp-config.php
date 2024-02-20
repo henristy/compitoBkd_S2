@@ -20,6 +20,8 @@
 
 // ** Impostazioni database - È possibile ottenere queste informazioni dal proprio fornitore di hosting ** //
 /** Il nome del database di WordPress */
+define('WP_CACHE', true);
+define( 'WPCACHEHOME', 'C:\laragon\www\localBoost\wp-content\plugins\wp-super-cache/' );
 define( 'DB_NAME', 'localBoost' );
 
 /** Nome utente del database */
